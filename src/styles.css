@@ -11,16 +11,6 @@ body {
   margin: 0 auto;
 }
 
-.container {
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
-}
-
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
     url("../images/hero-bg.png");
@@ -122,8 +112,15 @@ footer a:hover {
   text-decoration: none;
 }
 
-.footer-container {
-  margin: 20px;
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 64px;
 }
 
 @media (max-width: 960px) {
