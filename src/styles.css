@@ -65,9 +65,6 @@ header a:hover {
   transition: 150ms ease-in-out;
 }
 
-main {
-}
-
 main h2 {
   color: var(--light-color);
   font-size: 40px;
