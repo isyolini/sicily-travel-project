@@ -1,8 +1,8 @@
 :root {
   --main-color: #462cb2;
   --light-color: #f8f8f8;
-  --bg-color-1: #181525;
-  --bg-color-2: #12101d;
+  --bg-color-1: #12101d;
+  --bg-color-2: #181525;
   --bg-colo-3: #272435;
   --accent-color: #f70776;
 }
@@ -96,9 +96,12 @@ main p {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+section.secondary {
+  background: var(--bg-color-2);
 }
 
 footer {
@@ -164,6 +167,10 @@ footer a:hover {
 
 .img-responsive {
   max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
 }
 
 @media (max-width: 900px) {
